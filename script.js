@@ -36,8 +36,8 @@ window.addEventListener("load", () => {
 function loadMusic(indexNumb) {
     musicName.innerText = allMusic[indexNumb - 1].name;
     musicArtist.innerText = allMusic[indexNumb - 1].artist;
-    musicImg.src = `Spotimusic.github.io/assets/images/${allMusic[indexNumb - 1].src}.jpg`;
-    mainAudio.src = `Spotimusic.github.io/assets/songs/${allMusic[indexNumb - 1].src}.mp3`;
+    musicImg.src = `assets/images/${allMusic[indexNumb - 1].src}.jpg`;
+    mainAudio.src = `assets/imagens/songs/${allMusic[indexNumb - 1].src}.mp3`;
 }
 
 function playMusic() {
