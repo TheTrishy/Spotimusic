@@ -24,6 +24,12 @@ let allMusic = [
         img: "music-2",
         src: "music-2"
     },
+    {
+        name: "Killer In The Mirror ",
+        artist: "Set it Off",
+        img: "music-3",
+        src: "music-3"
+    },
 ];
 
 let musicIndex = Math.floor((Math.random() * allMusic.length + 1));
